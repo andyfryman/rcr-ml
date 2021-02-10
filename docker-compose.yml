@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  # api
+  api:
+    build: .
+    hostname: api
+    ports: 
+      - ${API_PORT}:${API_PORT_INTERNAL}
+    networks: 
+      - net_api
+
+networks:
+  net_api:
+    name: net_api
+    driver: bridge

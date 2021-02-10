@@ -1,0 +1,6 @@
+scikit-learn
+joblib
+pymystem3
+flask
+flask_restful
+flasgger
