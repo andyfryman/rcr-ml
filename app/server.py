@@ -61,7 +61,7 @@ def post():
             - text
           properties:
             text:
-              description: Respinse text
+              description: Response text
               type: string
     responses:
       200:
@@ -99,7 +99,7 @@ def put():
               description: Repsonse text
               type: string
             pred:
-              desccription: Response prediction (0 or 1)
+              description: Response prediction (0 or 1)
               type: integer
     responses:
       200:
